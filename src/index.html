@@ -23,25 +23,23 @@
 
     <section class="navigation text-right fixed h-screen w-20 sm:w-40 md:w-64">
 
-      <h1 class="title text-xl sm:text-2xl lg:text-3xl font-bold p-5 pb-3 mb-3 border-b-2 border-gray-600 text-blue-500 text-center"> <span class="text-blue-300">Â</span>bdëlrãhmäñ <span class="text-blue-300">R</span>êdā </h1>
+      <h1 class="title text-xl sm:text-2xl lg:text-3xl font-bold p-5 pb-3 mb-3 border-b-2 border-gray-600 text-blue-500 text-center">
+        <span class="text-blue-300">Â</span>bdëlrãhmäñ <span class="text-blue-300">R</span>êdā
+      </h1>
 
       <ul class="links">
         <script>
           let data = {
-            names: ['Home',
-              'About',
-              'Contact'],
-            icons: ['home',
-              'question-circle',
-              'envelope'],
+            names: ['Home', 'About', 'Contact'],
+            icons: ['home', 'question-circle', 'envelope'],
           }
           for (var i = 0; i < data.names.length; i++) {
             document.write(`
               <li class="link-${i} px-5 py-3 mt-2 cursor-pointer hover:border-r-2 hover:bg-gray-500 hover:rounded-l-3xl hover:bg-opacity-25 md:hover:border-gray-600 transition ease-out duration-200">
-              <span class="text${i}"> ${data.names[i]} </span>
-              <i class='fas fa-${data.icons[i]} ${i}'></i>
+                <span class="text${i}"> ${data.names[i]} </span>
+                <i class='fas fa-${data.icons[i]} ${i}'></i>
               </li>
-              `);
+            `);
             document.querySelector('.text0').classList.add('font-semibold', 'text-gray-200', 'md:text-gray-600');
             document.querySelector(`.link-${i} i`).classList.add('text-gray-200', 'ml-2', 'text-lg', 'md:text-gray-600');
             document.querySelector('.link-0').classList.add('border-r-2', 'border-white', 'bg-gray-500', 'rounded-l-3xl', 'bg-opacity-25', 'md:border-gray-600');
@@ -78,18 +76,19 @@
               for (var i = 0; i <= 2; i++) {
                 document.write(`
                   <div class="card h-22 w-full overflow-hidden relative rounded-t-md rounded-b-lg shadow-black shadow-md">
-                  <div class="image h-full w-full">
-                  <img class="h-full w-full object-cover" src="./photo.png" alt="photo">
+                    <div class="image h-full w-full">
+                      <img class="h-full w-full object-cover" src="./photo.png" alt="photo">
+                    </div>
+                    <div class="title absolute bottom-0 bg-gray-700 bg-opacity-70 w-full py-1 px-2 text-gray-200">
+                      <h3 class="main-title font-bold"> Subway Surfers </h3>
+                      <h4 class="sub-title"> it's amazing game </h4>
+                    </div>
+                    <div class="badge absolute top-0 text-sm font-semibold bg-black bg-opacity-60 text-yellow-400 py-1 px-2 rounded-full m-1">
+                      <span class="icon"> <i class="fas fa-star"></i> </span>
+                      <p class="text inline"> 4.5 / 5 </p>
+                    </div>
                   </div>
-                  <div class="title absolute bottom-0 bg-gray-700 bg-opacity-70 w-full py-1 px-2 text-gray-200">
-                  <h3 class="main-title font-bold"> Subway Surfers </h3>
-                  <h4 class="sub-title"> it's amazing game </h4>
-                  </div>
-                  <div class="badge absolute top-0 text-sm font-semibold bg-black bg-opacity-60 text-yellow-400 py-1 px-2 rounded-full m-1">
-                  <span class="icon"> <i class="fas fa-star"></i> </span>
-                  <p class="text inline"> 4.5 / 5 </p>
-                  </div>
-                  </div> `)
+                `)
               }
             </script>
           </div>
@@ -105,19 +104,19 @@
               for (var i = 0; i <= 2; i++) {
                 document.write(`
                   <div class="card h-22 w-full overflow-hidden relative rounded-t-md rounded-b-lg shadow-black shadow-md">
-                  <div class="image h-full w-full">
-                  <img class="h-full w-full object-cover" src="./photo1.web" alt="photo…">
+                    <div class="image h-full w-full">
+                      <img class="h-full w-full object-cover" src="./photo1.web" alt="photo…">
+                    </div>
+                    <div class="title absolute bottom-0 bg-gray-700 bg-opacity-70 w-full py-1 px-2 text-gray-200">
+                      <h3 class="main-title font-bold"> Minecraft </h3>
+                      <h4 class="sub-title"> it's amazing game </h4>
+                    </div>
+                    <div class="badge absolute top-0 text-sm font-semibold bg-black bg-opacity-60 text-yellow-400 py-1 px-2 rounded-full m-1">
+                      <span class="icon"> <i class="fas fa-star"></i> </span>
+                      <p class="text inline"> 3.5 / 5 </p>
+                    </div>
                   </div>
-                  <div class="title absolute bottom-0 bg-gray-700 bg-opacity-70 w-full py-1 px-2 text-gray-200">
-                  <h3 class="main-title font-bold"> Minecraft </h3>
-                  <h4 class="sub-title"> it's amazing game </h4>
-                  </div>
-                  <div class="badge absolute top-0 text-sm font-semibold bg-black bg-opacity-60 text-yellow-400 py-1 px-2 rounded-full m-1">
-                  <span class="icon"> <i class="fas fa-star"></i> </span>
-                  <p class="text inline"> 3.5 / 5 </p>
-                  </div>
-                  </div>
-                  `)
+                `)
               }
             </script>
           </div>
